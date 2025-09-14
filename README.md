@@ -3,53 +3,56 @@
 
 A simple and fun number guessing game written in C++.<br>
 The program randomly generates a number between 1 and 20, and the player has to guess it.<br>
-Each wrong guess gives a hint whether the secret number is higher or lower.<br>
+Each wrong guess gives a hint whether the secret number is higher or lower.<br><br><br>
 🚀 Features
 
-1.Random number generation between 1–20<br>
+<li>Random number generation between 1–20<br>
 
-2.Interactive guessing with feedback (Too High / Too Low)<br>
+<li>Interactive guessing with feedback (Too High / Too Low)<br>
 
-3.Counts the number of attempts<br>
+<li>Counts the number of attempts<br>
 
-4.Beginner-friendly C++ implementation<br>
+<li>Beginner-friendly C++ implementation<br><br><br>
 🛠️ How to Run<br>
 
-Clone this repository<br>
-
-git clone https://github.com/your-username/number-guessing-game.git<br>
-cd number-guessing-game<br>
-
-
-Compile the program<br>
-
-g++ guessing_game.cpp -o guessing_game<br>
-
-
-Run the executable<br>
-
-./guessing_game<br>
-📸 Example Gameplay<br>
-Welcome to the Number Guessing Game!<br>
-I have chosen a number between 1 and 20.<br>
-Can you guess it?<br>
-
+<li>Clone this repository<br>
+  <ul>
+<li>git clone https://github.com/mishra6393/Number-guessing-Game<br>
+  </ul>
+<li>cd Number-guessing-Game<br><br>
+<li>Compile the program<br>
+  <ul>
+<li>g++ number.cpp -o number<br>
+  </ul>
+<li>Run the executable<br>
+  <ul>
+<li>./number<br><br><br>
+  </ul>
+📸 Example Gameplay<br><br>
+ =====  Number Guessing Game  =====<br> 
+ I have chosen a number between 1 and 20.<br>
+ Can you guess it?<br>
+<----------------------------->   <br>   
 Enter your guess: 10<br>
-Too low! Try again.<br>
-Enter your guess: 15<br>
 Too high! Try again.<br>
-Enter your guess: 13<br>
-🎉 Congratulations! You guessed the number in 3 attempts!<br>
+<-----------------------------><br>
+Enter your guess: 5<br>
+Too low! Try again.<br>
+<-----------------------------><br>
+Enter your guess: 8<br>
+Too low! Try again.<br>
+<-----------------------------><br>
+
+                      Enter your guess: 9
+
+
+          Congratulations! You guessed it in 4 attempts.
+
 📚 Concepts Used<br>
-
-Random number generation (rand(), srand())<br>
-
-Conditional statements (if-else)<br>
-
-Loops (while)<br>
-
-Basic I/O (cin, cout)<br>
+<li>Random number generation (rand(), srand())<br>
+<li>Conditional statements (if-else)<br>
+<li>Loops (do_while)<br>
+<li>Basic I/O (cin, cout)<br><br><br>
 🤝 Contributing<br>
-
-Pull requests are welcome!<br>
-If you’d like to add features (e.g., difficulty levels, replay option, or score tracking), feel free to fork the repo and open a PR.<br>
+<li>Pull requests are welcome!<br>
+<li>If you’d like to add features (e.g., difficulty levels, replay option, or score tracking), feel free to fork the repo and open a PR.<br>
