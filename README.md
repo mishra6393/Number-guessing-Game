@@ -17,9 +17,9 @@ Each wrong guess gives a hint whether the secret number is higher or lower.<br><
 
 <li>Clone this repository<br>
   <ul>
-<li>git clone https://github.com/mishra6393/Number-guessing-Game<br>
+<li>git clone https://github.com/mishra6393/DIGIBHEM<br>
   </ul>
-<li>cd Number-guessing-Game<br><br>
+<li>cd DIGIBHEM<br><br>
 <li>Compile the program<br>
   <ul>
 <li>g++ number.cpp -o number<br>
