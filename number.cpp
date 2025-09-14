@@ -34,6 +34,7 @@ int main() {
                  << attempts << " attempts." << endl << endl << endl;
         }
     } while (guess != secret);
-systm("pause");
+system("pause");
 return 0;
 }
+
